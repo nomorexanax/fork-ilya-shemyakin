@@ -20,7 +20,7 @@ int main()
                 std::cin.clear();
             }
         }
-        std::sort(std::begin(data), std::end(data), hismatulin::compareDataStruct);
+        std::sort(std::begin(data), std::end(data), tabolina::compareDataStruct);
         std::copy(
             std::begin(data),
             std::end(data),
