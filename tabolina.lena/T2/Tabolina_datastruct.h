@@ -7,6 +7,7 @@
 #include <iomanip>
 #include <algorithm>
 #include <exception>
+#include <iterator>
 
 namespace tabolina
 {
