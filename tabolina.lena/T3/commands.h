@@ -1,9 +1,9 @@
-#pragma once
 #ifndef commands_h
 #define commands_h
 #include "Polygon.h"
 
-namespace tabolina {
+namespace tabolina
+{
 	double area(std::vector<Polygon>& data, std::string& arg);
 	double maxArea(std::vector<Polygon>& data);
 	int maxVertexes(std::vector<Polygon>& data);
